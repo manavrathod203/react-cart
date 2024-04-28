@@ -26,7 +26,7 @@ function Products() {
         <div className="flex items-center gap-2 flex-wrap">
           <button
             onClick={() => setSelect("all")}
-            className={`bg-zinc-200 px-3 py-2 md:px-4 md:py-2 text-sm rounded-lg font-semibold ${
+            className={`px-3 py-2 md:px-4 md:py-2 text-sm rounded-lg font-semibold ${
               select === 'all' ? "bg-green-500 text-white" : "bg-zinc-200 hover:bg-zinc-300"
             } `}
           >
@@ -36,7 +36,7 @@ function Products() {
             <button
               key={index}
               onClick={() => setSelect(item)}
-              className={`bg-zinc-200 px-3 py-2 md:px-4 md:py-2 text-sm rounded-lg font-semibold ${
+              className={`px-3 py-2 md:px-4 md:py-2 text-sm rounded-lg font-semibold ${
                 select === item ? "bg-green-500 text-white" : "bg-zinc-200 hover:bg-zinc-300"
               } `}
             >
